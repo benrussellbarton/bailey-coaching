@@ -1,9 +1,10 @@
 import React from 'react';
 import Navigation from './components/navbar.js';
+import Footer from './components/footer.js';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
-import Modal from 'react-bootstrap/Modal';
 import Col from 'react-bootstrap/Col';
+import Modal from 'react-bootstrap/Modal';
 import Food from './images/food.jpg';
 import Rogue from './images/rogue.jpg';
 import Lean from './images/yoga.jpg';
@@ -185,7 +186,7 @@ function Bespoke() {
       </div>
       <Container>
         <Row>
-          <Col onClick={() => setModalNut(true)} xs='12' sm='6' lg='3'>
+          <Col onClick={() => setModalNut(true)} xs='12' sm='6' xl='3'>
             <Hover>
               <Image src={Food} alt='Nutrition Guide' />
               <ProgrammeName>Nutrition Guide</ProgrammeName>
@@ -194,7 +195,7 @@ function Bespoke() {
             </Hover>
           </Col>
           <NutritionModal show={modalNut} onHide={() => setModalNut(false)} />
-          <Col onClick={() => setModalCon(true)} xs='12' sm='6' lg='3'>
+          <Col onClick={() => setModalCon(true)} xs='12' sm='6' xl='3'>
             <Hover>
               <Image src={Rogue} alt='Conditioning' />
               <ProgrammeName>Conditioning</ProgrammeName>
@@ -203,7 +204,7 @@ function Bespoke() {
             </Hover>
           </Col>
           <ConditioningModal show={modalCon} onHide={() => setModalCon(false)} />
-          <Col onClick={() => setModalLean(true)} xs='12' sm='6' lg='3'>
+          <Col onClick={() => setModalLean(true)} xs='12' sm='6' xl='3'>
             <Hover>
               <Image src={Lean} alt='Lean and Tone' />
               <ProgrammeName>Lean and Tone</ProgrammeName>
@@ -212,7 +213,7 @@ function Bespoke() {
             </Hover>
           </Col>
           <LeanModal show={modalLean} onHide={() => setModalLean(false)} />
-          <Col onClick={() => setModalHyp(true)} xs='12' sm='6' lg='3'>
+          <Col onClick={() => setModalHyp(true)} xs='12' sm='6' xl='3'>
             <Hover>
               <Image src={Man} alt='Hypertrophy' />
               <ProgrammeName>Hypertrophy</ProgrammeName>
@@ -223,6 +224,7 @@ function Bespoke() {
           <HypertrophyModal show={modalHyp} onHide={() => setModalHyp(false)} />
         </Row>
       </Container>
+      <Footer />
     </div>
   );
 }
