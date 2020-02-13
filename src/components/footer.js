@@ -13,7 +13,7 @@ const footerImage = {
   backgroundImage: `url(${FooterImg})`,
   backgroundSize: 'cover',
   height: '200px',
-  marginTop: '20px'
+  marginTop: '30px'
 };
 
 const grey = {

@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import { BrowserRouter as Router, Route } from "react-router-dom";
-import Bespoke from './bespoke'
+import Bespoke from './programmes'
 import Contact from './contact'
 import Training from './training'
 
@@ -11,7 +11,7 @@ const routing = (
   <Router>
     <div>
       <Route path="/" exact component={App} />
-      <Route path="/bespoke" exact component={Bespoke} />
+      <Route path="/programmes" exact component={Bespoke} />
       <Route path="/training" exact component={Training} />
       <Route path="/contact" exact component={Contact} />
     </div>

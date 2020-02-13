@@ -44,7 +44,7 @@ const Hover = styled.div`
 
 const SubHeading = styled.p`
   font-family: 'Barlow', sans-serif;
-  margin-bottom: 50px;
+  margin-bottom: 60px;
   color: #353535;
   }
 `

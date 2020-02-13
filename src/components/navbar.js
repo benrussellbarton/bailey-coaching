@@ -35,7 +35,7 @@ function Navigation() {
           <Nav.Link className="barlow-nav" as={Link} to="/">
             <NavText>About</NavText>
           </Nav.Link>
-          <Nav.Link className="barlow-nav" as={Link} to="../bespoke">
+          <Nav.Link className="barlow-nav" as={Link} to="../programmes">
             <NavText>Bespoke Programmes</NavText>
           </Nav.Link>
           <Nav.Link className="barlow-nav" as={Link} to="../training">
