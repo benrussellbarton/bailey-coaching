@@ -37,7 +37,7 @@ const Concept = styled.p`
   font-family: 'Barlow', sans-serif;
   margin-top: 10px;
   color: #353535;
-  font-size: 0.8em;
+  font-size: 0.85em;
   }
 `
 
@@ -51,7 +51,7 @@ function Footer() {
               <Hover><FontAwesomeIcon icon={faLinkedinIn} style={grey} /></Hover>
               <Hover><FontAwesomeIcon icon={faTwitter} style={grey} /></Hover>
               <Hover><FontAwesomeIcon icon={faYoutube} style={grey} /></Hover>
-              <Concept>Bailey Coaching Website Concept v1</Concept>
+              <Concept><em>Bailey Coaching Website Concept v1</em></Concept>
             </Col>
           </Row>
         </Container>

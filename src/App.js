@@ -3,6 +3,7 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navigation from './components/navbar.js';
 import Background from './images/home.jpg';
+import Angle from './images/angle.svg';
 import Logo from './images/bc-logo-white.svg';
 import Signature from './images/signature.svg';
 import Bailey from './images/bailey.jpg';
@@ -19,6 +20,13 @@ const backgroundImage = {
   width: '100vw',
   height: '100vh',
   backgroundImage: `url(${Background})`
+};
+
+const Angled = {
+  backgroundPosition: 'center',
+  backgroundSize: 'cover',
+  backgroundRepeat: 'no-repeat',
+  backgroundImage: `url(${Angle})`,
 };
 
 const Portrait = {
@@ -105,13 +113,14 @@ function App() {
           </Row>
         </Container>
       </div>
+      <div style={Angled}>
       <Container>
         <Row className='justify-content-center text-center'>
           <Col xs='10' md='8'>
             <FadeInSection>
               <Slogan>What is Bailey Coaching?</Slogan>
             </FadeInSection>
-            <SubTitle>Bailey Coaching is a unique Kent-based personal training service that combines expert knowledge, nutritional guidance, and lifestyle advice to achieve outstanding results.</SubTitle>
+            <SubTitle>Bailey Coaching is a unique Kent based personal training service that combines expert knowledge, nutritional guidance, and lifestyle advice to achieve outstanding results.</SubTitle>
           </Col>
         </Row>
         <Row className='justify-content-center'>
@@ -128,13 +137,14 @@ function App() {
           <Col xs='10' md='6' lg='5' xl='4'>
             <Image src={Bailey} style={Portrait} alt='Bailey Portrait' />
           </Col>
-          <Col xs='12' lg='7' xl='6'>
+          <Col xs='10' lg='7' xl='6'>
             <Paragraph className="mt-3">From being a semi professional football player I gained a love for sport, health, and fitness, fuelling my desire to help others with their fitness journey. <br /><br />With 10 years experience in the fitness industry I have trained individuals of various nationalities and abilities, including CEOs of financial institutes, professional athletes, celebrities and your every day person determined to have a healthier, happier body.<br /><br /> With my interest of travelling and learning about other cultures I have lived and trained clients in London, Mexico, Vancouver and the Middle East. This has given me a wealth of knowledge allowing me to help many people achieve their goals! I am dedicated to further enabling the growth and improvement of those that enter into this journey with me.</Paragraph>
             <Image src={Signature} style={Sig} alt='Bailey Signature' />
           </Col>
         </Row>
       </Container>
       <Footer />
+      </div>
     </div>
   );
 }
