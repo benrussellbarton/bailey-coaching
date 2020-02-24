@@ -56,6 +56,16 @@ const ProgrammeParagraph = styled.p`
   }
 `
 
+const ProgrammeName = styled.h2`
+  font-family: 'Barlow Condensed', sans-serif;
+  margin: 25px 0 15px 0;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-size: 1.3em;
+  color: grey;
+  text-align: center;
+`
+
 const ProgrammeTitle = styled.p`
   font-family: 'Barlow', sans-serif;
   font-size: 1.3em;
@@ -74,16 +84,6 @@ const Title = styled.h1`
   @media (max-width: 492px) {
     margin: 30px 0 15px 0;
   }
-`
-
-const ProgrammeName = styled.h2`
-  font-family: 'Barlow Condensed', sans-serif;
-  margin: 25px 0 15px 0;
-  text-transform: uppercase;
-  letter-spacing: 4px;
-  font-size: 1.3em;
-  color: grey;
-  text-align: center;
 `
 
 const Step = styled.h3`
