@@ -70,7 +70,7 @@ function Contact() {
                   </Form.Group>
                 </Form>
                 <div style={submit}>
-                  <Button size='lg' as='input' type='submit' value='SEND 🚀' variant='success' />
+                  <Button size='lg' type='submit' variant='success'><span role='img' aria-label='Send Rocket'>SEND 🚀</span></Button>
                 </div>
               </div>
             </Col>
