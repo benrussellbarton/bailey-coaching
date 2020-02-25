@@ -63,7 +63,7 @@ const Testimonials = styled.h2`
 const SubHeadingBottom = styled.p`
   font-family: 'Barlow', sans-serif;
   color: #353535;
-  margin: 0;
+  margin: 0 50px 0 0;
   @media (max-width: 992px) {
     margin: 0 0 50px 0;
   }
@@ -72,7 +72,7 @@ const SubHeadingBottom = styled.p`
 const SubHeadingTop = styled.p`
   font-family: 'Barlow', sans-serif;
   color: #353535;
-  margin: 0;
+  margin: 0 0 0 50px;
   @media (max-width: 992px) {
     margin: 50px 0 0 0;
   }
@@ -117,7 +117,7 @@ function Training() {
           <Col xs='12' lg='6' className='my-auto'>
             <SubHeadingTop>At Bailey Coaching, personal training is much more than exercise instruction in a gym environment.
               <br /><br />It is about having the support and expert guidance to give you the confidence to transform your mind and body into the healthier, happier you. Training sessions will last 60 mins and be 1-1. Support and accountability are a must so any questions outside of the sessions will be promptly replied to by email or phone.
-              <br /><br />With the constant support you will receive you will be amazed the changes we will make to your body and total overall well-being.
+              <br /><br /><strong>With our constant support you will be amazed the changes you'll make to your body and well-being.</strong>
             </SubHeadingTop>
           </Col>
         </Row>
@@ -126,9 +126,9 @@ function Training() {
         <Container>
           <Row className='justify-content-center h-100'>
             <Col xs='12' lg='6' className='my-auto'>
-              <SubHeadingBottom>At Bailey Coaching, personal training is much more than exercise instruction in a gym environment.
-                <br /><br />It is about having the support and expert guidance to give you the confidence to transform your mind and body into the healthier, happier you. Training sessions will last 60 mins and be 1-1. Support and accountability are a must so any questions outside of the sessions will be promptly replied to by email or phone.
-                <br /><br />With the constant support you will receive you will be amazed the changes we will make to your body and total overall well-being.
+              <SubHeadingBottom>When designing the program, frequency, intensity and volume will be made to match your goals, abilities and priorities.
+              <br /><br />Phased training cycles are put in place to progress you to attain your goals. Exercises, sets, reps, tempo, rest period and progressive overload will be structured specifically and clear in a training diary for every training session.
+              <br /><br />Our foundation is built around the fact that every person is totally individual with different health and body goals, commitment and social responsibilities.
               </SubHeadingBottom>
             </Col>
             <Col xs='12' lg='6'>
